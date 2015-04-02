@@ -5,4 +5,7 @@
     <typeAliases> 
         <typeAlias alias="BillItem" type="com.coderwood.bill.entity.BillItem"/> 
     </typeAliases> 
+    <mappers>  
+        <mapper resource="classpath*:com/coderwood/bill/mapper/*.xml" /> 
+    </mappers>  
 </configuration>

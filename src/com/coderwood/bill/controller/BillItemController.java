@@ -9,16 +9,17 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.coderwood.bill.entity.BillItem;
 import com.coderwood.bill.inter.IBillItemOperation;
+import com.codewood.bill.service.BillItemService;
 
 @Controller
 @RequestMapping("/billitem")
 public class BillItemController {
 	@Autowired
-	private IBillItemOperation billItemOperation;
+	private BillItemService biItemService;
 
 	@RequestMapping("/list")
 	public ModelAndView listAll() {
-		List<BillItem> billItems = billItemOperation.getBillItems("×Ê");
+		List<BillItem> billItems = biItemService.getBillItems("×Ê");
 		// new ArrayList<BillItem>();
 		// BillItem billItem=new BillItem();
 		// billItem.setItemID(1);
