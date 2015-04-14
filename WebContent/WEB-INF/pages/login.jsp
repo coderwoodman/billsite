@@ -7,9 +7,9 @@
 <title>登录</title>
 </head>
 <body>
-	<form action="/login" method="post">
+	<form action="login" method="post">
 		<div>
-			<input type="text" id="txtName" name="txtName" value="${loginname}" /> 
+			<input type="text" id="loginName" name="loginName" value="${loginName}" /> 
 			<input type="submit" value="login" title="login" id="btnLogin" />
 				
 		</div>

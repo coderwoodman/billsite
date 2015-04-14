@@ -7,11 +7,9 @@
 <title>登录</title>
 </head>
 <body>
-	<form action="billitem/list" method="post">
+	<form action="" method="post">
 		<div>
-			<input type="text" id="txtName" name="txtName" value="${loginname}" /> 
-			<input type="submit" value="login" title="login" id="btnLogin" />
-				
+						i am index
 		</div>
 		<script type="text/javascript"
 			src="http://114.215.154.9/webresource/js/jquery-2.1.3.min.js"></script>

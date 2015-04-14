@@ -10,7 +10,7 @@ public class DefaultController {
 	@RequestMapping("/")
 	public ModelAndView index() {
 		ModelAndView modelAndView = new ModelAndView("login");
-		modelAndView.addObject("loginname", "pxt");
+		modelAndView.addObject("loginName", "pxt");
 		return modelAndView;
 	}
 }
